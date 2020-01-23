@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Андрей Азенков](https://up.htmlacademy.ru/htmlcss/27/user/877237).
-* Наставник: [Александр Уразаев] (https://htmlacademy.ru/profile/id61574).
+* Наставник: [Александр Уразаев] (https://up.htmlacademy.ru/htmlcss/27/user/61574).
 
 ---
 
