@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+}
+
+/* Main Header */
+
+.main-header-bar {
+  background-color: #293449;
+}
+
+.search-field {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.bar-btn {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.main-header-content {
+  background-color: #f4f7f9;
+}
+
+.main-header-text {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.contacts-tel {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.contacts-adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.user-block li {
+  list-style: none;
+}
+
+.user-block-btn {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.main-nav {
+  background-color: #32425c;
+}
+
+.main-nav-list li {
+  list-style: none;
+}
+
+.main-nav-link {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+/* Company block */
+
+.company-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.company-text {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.company-list {
+  list-style: none;
+}
+
+.company-item {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* Footer */
+
+.footer-content {
+  background-color: #32425c;
+}
+
+.footer-contacts {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.footer-list-1 {
+  list-style: none;
+}
+
+.footer-link-1 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.footer-list-2 {
+  list-style: none;
+}
+
+.footer-link-2 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-bar {
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.socials {
+  list-style: none;
+}
+
+.feedback {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.feedback-mail {
+  color: #ffd180;
+}
+
+.developer {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.developer-link {
+  color: #ffd180;
+}
