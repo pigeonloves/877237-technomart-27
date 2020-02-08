@@ -19,9 +19,10 @@ a {
   background-color: #ee3643;
 }
 
-/* Main Header */
+/* Index content */
+/* Header index */
 
-.main-header-bar {
+.header-bar {
   background-color: #293449;
 }
 
@@ -38,11 +39,11 @@ a {
   color: #ffffff;
 }
 
-.main-header-content {
+.header-content {
   background-color: #f4f7f9;
 }
 
-.main-header-text {
+.header-text {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
@@ -72,25 +73,27 @@ a {
   background-color: #ffffff;
 }
 
-.main-nav {
+.nav {
   background-color: #32425c;
 }
 
-.main-nav-list li {
+.nav-list li {
   list-style: none;
 }
 
-.main-nav-link {
+.nav-link {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
 }
 
+/* Main index */
+
 .visually-hidden {
   display: none;
 }
 
-/* Company block */
+/* Company block index */
 
 .company-title {
   font-size: 30px;
@@ -113,7 +116,7 @@ a {
   line-height: 20px;
 }
 
-/* Footer */
+/* Footer index */
 
 .footer-content {
   background-color: #32425c;
@@ -175,4 +178,122 @@ a {
 
 .developer-link {
   color: #ffd180;
+}
+
+/* Catalog content */
+/* Header catalog */
+
+.user-block-name {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.user-block-bottom {
+  list-style: none;
+}
+
+.user-block-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+/* Main catalog */
+
+.breadcrumbs {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.page-header {
+  background-color: #f2f6f8;
+}
+
+.page-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.filter-title-header {
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f7f3ec;
+  text-transform: uppercase;
+}
+
+.filter-title {
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter-brands-list {
+  list-style: none;
+}
+
+.filter-brands-item {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.filter-supply-list {
+  list-style: none;
+}
+
+.filter-supply-item {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+.catalog-btn {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.catalog-products {
+  list-style: none;
+}
+
+.product-card {
+  width: 220px;
+  height: 318px;
+  border: 1px solid #e5e5e5;
+}
+
+.product-card-title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.product-card-discount {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.product-card-price {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  color: #ffffff;
+  
 }
