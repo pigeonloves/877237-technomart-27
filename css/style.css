@@ -33,7 +33,7 @@ a {
 
 .header-bar-flex {
   width: 940px;
-  height: 43px;
+  min-height: 43px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -207,7 +207,7 @@ a {
 }
 
 .nav-container {
-  height: 120px;
+  min-height: 120px;
 }
 
 .nav {
@@ -330,10 +330,15 @@ a {
   width: 940px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .company-col-1 {
+  width: 519px;
+}
 
+.company-col-2 {
+  width: 300px;
 }
 
 .company-title {
@@ -393,7 +398,6 @@ a {
 }
 
 .footer-logo {
-  float: none;
   width: 220px;
   padding: 18px 0 15px 0;
   font-size: 30px;
@@ -401,7 +405,7 @@ a {
 }
 
 .footer-contacts {
-  
+  width: 325px;
 }
 
 .footer-adress,
@@ -466,6 +470,10 @@ a {
   justify-content: space-between;
 }
 
+.footer-bar-col {
+  width: 228px;
+}
+
 .copyright {
   font-size: 16px;
   line-height: 18px;
@@ -477,7 +485,7 @@ a {
 
 .socials-item {
   width: 42px;
-  height: 42px;
+  min-height: 42px;
   font-size: 0;
   text-align: center;
   background-color: #212a3a;
@@ -491,6 +499,7 @@ a {
 }
 
 .feedback {
+  width: 135px;
   font-size: 16px;
   line-height: 18px;
 }
@@ -509,6 +518,7 @@ a {
 }
 
 .developer {
+  width: 96px;
   font-size: 16px;
   line-height: 18px;
 }
@@ -684,7 +694,7 @@ a {
 
 .product-card {
   width: 220px;
-  height: 318px;
+  min-height: 318px;
   border: 1px solid #e5e5e5;
 }
 
