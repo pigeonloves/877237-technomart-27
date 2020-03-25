@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
@@ -100,33 +100,25 @@
               </li>
             </ul>
             <div class="promo-block-slider">
-              <div class="promo-block-slider-1">
-                <h3>Дрели</h3>
-                <p>Соседям на радость!</p>
-                <div class="promo-block-arrows-1">
-                  <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
-                    <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
-                  </svg>
-                  <svg class="icon-right" xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
-                    <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
-                  </svg>
+              <input class="slider-input-1 visually-hidden" type="radio" id="product-1" name="toggle" checked>
+              <input class="slider-input-2 visually-hidden" type="radio" id="product-2" name="toggle">
+              <div class="slider">
+                <div class="slider-controls">
+                  <label for="product-1">Дрели</label>
+                  <label for="product-2">Перфораторы</label>
                 </div>
-                <a class="btn btn-slider" href="catalog.html">Открыть каталог</a>
-                <!-- <span class="slider-dots left-dot">Индикатор слайда</span> -->
-              </div>
-              <div class="promo-block-slider-2">
-                <h3>Перфораторы</h3>
-                <p>Настоящие мужские игрушки</p>
-                <div class="promo-block-arrows-2">
-                  <svg class="icon-left" xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
-                    <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
-                  </svg>
-                  <svg class="icon-right" xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40">
-                    <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
-                  </svg>
-                </div>
-                <a class="btn btn-slider" href="catalog.html">Открыть каталог</a>
-                <!-- <span class="slider-dots right-dot">Индикатор слайда</span> -->
+                <ul class="slider-list">
+                  <li class="slider-item slide slide-1" id="slide1">
+                    <h3 class="slide-title">Дрели</h3>
+                    <p class="slide-text">Соседям на радость!</p>
+                    <a class="btn btn-slide" href="catalog.html">Открыть каталог</a>
+                  </li>
+                  <li class="slider-item slide slide-2" id="slide2">
+                    <h3 class="slide-title">Перфораторы</h3>
+                    <p class="slide-text">Настоящие мужские игрушки</p>
+                    <a class="btn btn-slide" href="catalog.html">Открыть каталог</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
